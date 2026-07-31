@@ -6,7 +6,12 @@ import {
   Venta, Pedido, Compra, AsientoContable, LibroMayor
 } from '../models/models';
 
-const API = 'http://localhost:5090/api';
+
+//oracle
+ const API = 'http://localhost:5090/api';
+
+//postgre
+//const API = 'http://localhost:5091/api';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
